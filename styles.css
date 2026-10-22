@@ -1,0 +1,89 @@
+h1 {
+  font-family: 'Mrs Saint Delafield', cursive;
+  font-size: 70px;
+  color: rgb(64, 0, 52);
+  text-align: center;
+  
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;           
+    width: 100%; 
+    box-sizing: border-box;  
+    
+}
+.bow-img {
+    width: 1000vw;             
+    max-width: 80px;         
+    height: auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(229, 196, 201);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.closet-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #a40d4f; 
+    padding: 20px;
+    border-radius: 20px; 
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    margin: 20px auto;
+}
+
+.clothing-row {
+  display: flex;
+  align-items: center;
+  margin: 5px 0; 
+}
+#shirt{
+  width: 250px;
+  height: 280px;
+  object-fit: cover; 
+
+}
+#pant{
+  width: 250px;
+  height: 400px;
+  object-fit: cover; 
+
+}
+.arrow{
+    background-color: #6E0231;
+    border:solid;
+    border-width: 1.6px;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 0 15px;
+    border-radius: 20%;
+    cursor: pointer;
+
+
+}
+.arrow:active {
+  background-color: #4a0121; 
+  box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.4);
+  transform: scale(0.95); 
+}
+.cute-footer{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    opacity: 0.8;
+    
+}
